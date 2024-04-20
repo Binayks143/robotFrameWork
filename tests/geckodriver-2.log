@@ -1,0 +1,16 @@
+1712664947878	geckodriver	INFO	Listening on 127.0.0.1:63597
+1712664950901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63598" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SC-229~1\\AppData\\Local\\Temp\\rust_mozprofileIW5OIq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712664951222	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712664951228	Marionette	INFO	Listening on port 63605
+Read port: 63605
+WebDriver BiDi listening on ws://127.0.0.1:63598
+1712664951389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63598/devtools/browser/e3be4a3a-1b65-44de-a958-292cef05fa4b
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/admin/lib/jquery/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js?v=V3.3.00045, line 33: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/paypal.js?v=V3.3.00045, line 578: unreachable code after return statement
+1712664955574	Marionette	INFO	Stopped listening on port 63605
+Dynamically enable window occlusion 1

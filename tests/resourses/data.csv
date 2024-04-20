@@ -1,0 +1,4 @@
+*** Test Cases ***,${username},${password}
+Invalid UserName,abc123@yahoo.com,Binay123@
+Invalid Password,binayks143@yahoo.com,HARIhh@
+Special Character,@&jhjjh,@099#

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.1 on win32)" generated="2024-04-17T01:03:46.588605" rpa="false" schemaversion="5">
+<suite id="s1" name="Customkeyword" source="C:\Binay\PyChamp\robatframework\tests\customkeyword.robot">
+<test id="s1-t1" name="Navigate to practice Page and perform actions" line="12">
+<kw name="Open the Browser with URL" owner="resource" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-17T01:03:46.810350" level="INFO">Opening browser 'chrome' to base url 'https://www.letskodeit.com/login'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-17T01:03:46.810350" elapsed="5.608169"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-04-17T01:03:52.419532" elapsed="0.117316"/>
+</kw>
+<status status="PASS" start="2024-04-17T01:03:46.810350" elapsed="5.726498"/>
+</kw>
+<kw name="click on PRACTICE tab">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-04-17T01:03:52.536848" level="INFO">Clicking link 'PRACTICE'.</msg>
+<arg>PRACTICE</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-17T01:03:52.536848" elapsed="0.096774"/>
+</kw>
+<status status="PASS" start="2024-04-17T01:03:52.536848" elapsed="0.096774"/>
+</kw>
+<kw name="click on element practice option from dropdown">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-04-17T01:03:52.634409" level="INFO">Clicking link 'Element Practice'.</msg>
+<arg>Element Practice</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-17T01:03:52.634409" elapsed="0.122163"/>
+</kw>
+<status status="PASS" start="2024-04-17T01:03:52.634409" elapsed="0.122163"/>
+</kw>
+<kw name="Hello World" owner="custom1">
+<msg time="2024-04-17T01:03:52.756572" level="INFO">Hello binay custom message</msg>
+<status status="PASS" start="2024-04-17T01:03:52.756572" elapsed="0.001021"/>
+</kw>
+<kw name="Close Browser Session" owner="resource" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-17T01:03:52.758579" elapsed="2.094172"/>
+</kw>
+<status status="PASS" start="2024-04-17T01:03:52.757593" elapsed="2.095158"/>
+</kw>
+<status status="PASS" start="2024-04-17T01:03:46.810350" elapsed="8.042401"/>
+</test>
+<doc>custom keyword pratice</doc>
+<status status="PASS" start="2024-04-17T01:03:46.588605" elapsed="8.264146"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Customkeyword">Customkeyword</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
