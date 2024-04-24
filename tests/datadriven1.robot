@@ -1,5 +1,6 @@
 ##parameterize test cases
-#while doing parameterize test cases need to decleared Test Template and test template key should be available in keywords
+#while doing parameterize test cases need to decleared Test Template and
+#test template key should be available in keywords
 
 
 *** Settings ***
